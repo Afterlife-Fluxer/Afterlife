@@ -4,7 +4,7 @@ export default defineConfig({
   // site-level options
   title: 'Afterlife',
   description: 'Guides on Privacy, OSINT, OPSEC, FOSS and Piracy',
-  base: '/Afterlife/',
+  base: '/',
   cleanUrls: true,
   head: [
     [
