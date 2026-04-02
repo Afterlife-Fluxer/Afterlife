@@ -3,9 +3,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // site-level options
   title: 'Afterlife',
+  titleTemplate: ':title • Afterlife',
+  lang: 'en-US',
   description: 'Guides on Privacy, OSINT, OPSEC, FOSS and Piracy',
   base: '/',
   cleanUrls: true,
+  appearance: true,
+  ignoreDeadLinks: true,
   head: [
     [
       'link',
@@ -24,9 +28,9 @@ export default defineConfig({
   themeConfig: {
     logo: '/afterlife.svg',
     nav: [
-      { text: 'Guide', link: '/guide' },
-      { text: 'Config', link: '/config' },
-      { text: 'Changelog', link: 'https://github.com/...' }
+      { text: 'Guide 🏗️', link: '/guide' },
+      { text: 'Config 🏗️', link: '/config' },
+      { text: 'Changelog 🏗️', link: 'https://github.com/Afterlife-Fluxer/Afterlife' }
     ],
     socialLinks: [
       // You can add any icon from simple-icons (https://simpleicons.org/):
