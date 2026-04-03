@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="/docs/public/afterlife.svg" width="360">
+</p>
+
 # Afterlife
 
 This repo contains the code and pages for the Afterlife Guides Website, powered by [VitePress](https://vitepress.dev)
