@@ -10,6 +10,18 @@ Come chat with us on [Fluxer](https://fluxer.gg/afterlife)
 
 ## Development
 
+### Requirements
+1. Node.js (v20+)
+    - [Download Node.js](https://nodejs.org/en/download)
+    - Consider using NVM if you use different versions of Node
+      - [NVM (Linux/Mac)](https://github.com/nvm-sh/nvm)
+      - [NVM (Windows)](https://github.com/coreybutler/nvm-windows)
+2. Bun
+    - [Full Installation Instructions](https://bun.com/docs/installation)
+    - Or just use npm: `npm install -g bun`
+
+### Steps
+
 1. Clone the repo
 2. Install the dependencies with `bun install`
 3. Run the Dev Server with `bun run docs:dev`
